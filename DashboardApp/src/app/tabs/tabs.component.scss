@@ -1,0 +1,30 @@
+.tabs {
+    display: flex;
+    // flex-direction: row;
+    gap: 14px;
+    
+    background-color: rgba(white, 0.25);
+    backdrop-filter: blur(3px);
+    
+    border-radius: 12px;
+
+    padding: 10px;
+    margin: 12px;
+    margin-top: 50px;
+}
+
+.tab-tile {
+    display: flex;
+
+    padding: 18px;
+    background: linear-gradient(45deg, #f8b5a5, #e2d2fd);
+// left off at episode 2 @ 24:00
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    i {
+        color: #222;
+    }
+}
